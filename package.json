@@ -1,7 +1,7 @@
 {
-  "name": "jpg-is-cmyk",
-  "version": "1.0.1",
-  "description": "check jpg is cmyk",
+  "name": "jpg-is-cmyk-color-mode",
+  "version": "1.0.2",
+  "description": "Check if a jpg is in CMYK color mode.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -25,10 +25,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zengming00/node-jpg-is-cmyk.git"
+    "url": "git+https://github.com/BakuDigital/node-jpg-is-cmyk.git"
   },
   "bugs": {
-    "url": "https://github.com/zengming00/node-jpg-is-cmyk/issues"
+    "url": "https://github.com/BakuDigital/node-jpg-is-cmyk/issues"
   },
-  "homepage": "https://github.com/zengming00/node-jpg-is-cmyk#readme"
+  "homepage": "https://github.com/BakuDigital/node-jpg-is-cmyk"
 }
