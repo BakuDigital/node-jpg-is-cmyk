@@ -1,9 +1,9 @@
 # node-jpg-is-cmyk
-check jpg file is cmyk
+Check if a jpg is in CMYK color mode.
 
 # install 
 ```
-npm install jpg-is-cmyk
+npm install jpg-is-cmyk-color-mode
 ```
 
 # API
