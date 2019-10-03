@@ -1,6 +1,6 @@
 {
   "name": "jpg-is-cmyk-color-mode",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Check if a jpg is in CMYK color mode.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

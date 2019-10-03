@@ -18,21 +18,7 @@ export function isCmykFromFile(file: string) {
 
 // 以Buffer检查是否是cmyk
 export function isCmykFromData(data: Buffer) {
-  check_valid_jpg(data);
-  // check_ICC_PROFILE(data);
   return check_cmyk(data);
-}
-
-
-// 检查是否是有效的jpg
-export function check_valid_jpg(data: Buffer) {
-  if (data[0] !== 0xff && data[1] !== 0xd8) {
-    throw new Error(`invalid JPEG begin`);
-  }
-  const i = data.length - 2;
-  if (data[i] !== 0xff && data[i + 1] !== 0xd9) {
-    throw new Error(`invalid JPEG end`);
-  }
 }
 
 // 检查是否带有ICC_PROFILE
